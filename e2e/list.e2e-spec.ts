@@ -1,7 +1,7 @@
 import { browser, element, by } from 'protractor';
 
 describe('contact list', function() {
-  it('test ListComponent', function() {
+  it('my ListComponent', function() {
     // 打开网页
     browser.get('/list');
 

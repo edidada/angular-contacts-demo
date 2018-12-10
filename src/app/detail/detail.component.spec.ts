@@ -63,11 +63,11 @@ describe('DetailComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('test component data', () => {
+  it('my component data', () => {
     expect(component.detail.name).toEqual('张三');
   });
 
-  it('test component template content', () => {
+  it('my component template content', () => {
     const el: HTMLElement = fixture.debugElement.nativeElement;
     // 获取并检查 DOM 元素的内容
     const tmplValue = el.querySelector('.detail-info>li:first-child>p:nth-child(2)').textContent;
