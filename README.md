@@ -18,3 +18,8 @@ git@github.com:edidada/angular-contacts-demo.git
 git remote remove origin
 
 git remote add origin git@github.com:edidada/angular-contacts-demo.git
+
+
+这个是移动端的例子
+SPA ? 需要加路由？
+
